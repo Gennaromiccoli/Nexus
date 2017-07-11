@@ -82,11 +82,7 @@
                         </md-tooltip>
                         <md-icon aria-label="{{ 'dashboard.settings' | translate }}" class="material-icons">settings</md-icon>
                     </md-button>
-                    <tb-dashboard-select   ng-show="!vm.isEdit && !vm.widgetEditMode"
-                                           ng-model="vm.currentDashboardId"
-                                           dashboards-scope="{{vm.currentDashboardScope}}"
-                                           customer-id="vm.currentCustomerId">
-                    </tb-dashboard-select>
+                   
                 </md-fab-actions>
             </md-toolbar>
         </md-fab-toolbar>
